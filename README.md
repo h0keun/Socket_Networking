@@ -15,3 +15,16 @@
 ## 네트워크 사용시 주의점
 + 네트위킹을 사용할 때는 반드시 Thread 사용
 + Thread를 사용하기 때문에 UI 업데이트를 위해서는 반드시 Handler 사용(post메소드)
+
+
+## 임의로 안드로이드상에서 서버와 소켓 만들어서 보내보기
+[Server_example]()
+```
+2021-03-31 19:08:55.018 18828-18950/com.grow.sever_example D/ServerThread: intput : 안녕!
+2021-03-31 19:08:55.023 18828-18950/com.grow.sever_example D/ServerThread: output 보냄.
+```
+[Socket_example]()
+```
+2021-03-31 19:08:55.015 17894-18977/com.grow.socket_example D/ClientThread: 서버로 보냄.
+2021-03-31 19:08:55.024 17894-18977/com.grow.socket_example D/ClientThread: 받은 데이터 : 안녕! from server.
+```
