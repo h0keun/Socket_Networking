@@ -18,7 +18,7 @@
 
 
 ## 임의로 안드로이드상에서 서버와 소켓 만들어서 보내보기
-[Server_example]()
+[Server_example](https://github.com/h0keun/server_example)
 ```
 2021-03-31 19:08:55.018 18828-18950/com.grow.sever_example D/ServerThread: intput : 안녕!
 2021-03-31 19:08:55.023 18828-18950/com.grow.sever_example D/ServerThread: output 보냄.
