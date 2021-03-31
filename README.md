@@ -23,7 +23,7 @@
 2021-03-31 19:08:55.018 18828-18950/com.grow.sever_example D/ServerThread: intput : 안녕!
 2021-03-31 19:08:55.023 18828-18950/com.grow.sever_example D/ServerThread: output 보냄.
 ```
-[Socket_example]()
+[Socket_example](https://github.com/h0keun/socket_example/tree/main)
 ```
 2021-03-31 19:08:55.015 17894-18977/com.grow.socket_example D/ClientThread: 서버로 보냄.
 2021-03-31 19:08:55.024 17894-18977/com.grow.socket_example D/ClientThread: 받은 데이터 : 안녕! from server.
