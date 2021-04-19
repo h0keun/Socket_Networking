@@ -45,6 +45,8 @@
 위의 내용은 handler를 사용하지 않아서 UI상에 보이지 않고 로그상에 찍혀 나오는 부분이다.
 엑티비티에 데이터를 표시하려면 Handler를 사용해야함!
 
+<img src="https://user-images.githubusercontent.com/63087903/115214803-d98e7100-a13d-11eb-96df-b26f8ecabec6.jpg" width="250" height="530"> <img src="https://user-images.githubusercontent.com/63087903/115215032-0fcbf080-a13e-11eb-8107-44d68870500b.jpg" width="250" height="530">
+
 ### ㅇㅇㅇ
 위에선 하나의 단말에서 각각 서버와 클라이언트 역할을 하는 두개의 앱을 Thread를 통해 데이터를 주고받았다.  
 하지만 엑티비티는 언제든 화면이 존재하기도하고 단말의 리소스가 부족하면 중지될 수 있기 때문에 스레드가아닌 백그라운드 서비스를 만들어서 실행하는 편이 적합하다.
